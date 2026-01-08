@@ -10,6 +10,6 @@ collections:
   matlab:
     output: true
     permalink: /matlab/:name
-  ai:
+  CNN:
     output: true
-    permalink: /ai/:name
+    permalink: /CNN/:name
