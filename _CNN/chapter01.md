@@ -7,3 +7,4 @@ title: "CNN chapter01"
 
 
 <img width="283" height="254" alt="Screenshot 2026-01-08 094304" src="https://github.com/user-attachments/assets/c2a98b68-6010-43d7-855a-2afc0dba6b30" />
+
