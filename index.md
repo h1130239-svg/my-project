@@ -5,8 +5,6 @@ title: HOME
 
 # 學期成果
 
-請點選下方區塊開始學習。
-
 <style>
     
 /* 隱藏 Architect 主題的藍色頁首 */
