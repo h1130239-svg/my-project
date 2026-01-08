@@ -1,10 +1,9 @@
-# 📚 課程教學網站專案架構
+# 課程教學網頁架構
 
-## 📂 目錄結構說明
+## 目錄結構說明
 ```text
-.
-├── _config.yml              # 宣告課程集合 (matlab, ai)
 ├── index.md                 # 網站總首頁
+├── _config.yml              # 宣告課程集合 (matlab, ai)
 ├── _layouts/
 │   └── course_layout.html   # 自動判定側邊欄的 HTML 模板
 ├── _matlab/                 # MATLAB 講義區
