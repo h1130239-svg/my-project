@@ -79,7 +79,7 @@ footer, .site-footer {
 </style>
 
 <div class="card-container">
-    <a href="./matlab/chapter01" class="card">
+    <a href="./matlab/chapter00" class="card">
         <h2> 期中報告</h2>
         <p>MATLAB程式設計</p>
         <span class="btn-start">預覽</span>
