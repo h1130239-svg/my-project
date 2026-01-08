@@ -2,8 +2,8 @@ title: "工程設計學期成果"
 description: MATLAB 與 CNN 的成果報告
 <!-- theme: jekyll-theme-Architect-->
 theme: jekyll-theme-Slate
-baseurl: "/YTCourse"
-url: "https://ytleetwgh.github.io"
+baseurl: "my-project"
+url: "https://h1130239.github.io"
 
 <!-- remote_theme: pmarsceill/just-the-docs-->
 collections:
