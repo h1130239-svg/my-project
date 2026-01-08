@@ -1,13 +1,45 @@
 ---
-layout: page
-title: 📚 程式課程學習中心
+layout: default
+title: HOME
 ---
 
-# 歡迎來到我的線上講義
+# YTLee課程講義
 
-這是一個專為 **MATLAB** 與 **AI** 學習者設計的免費資源平台。請點選下方區塊開始學習。
+請點選下方區塊開始學習。
 
 <style>
+    
+/* 隱藏 Architect 主題的藍色頁首 */
+header {
+    display: none !important;
+}    
+
+/* 隱藏 Architect/Hacker 主題右側的按鈕與側邊資訊 */
+aside#sidebar {
+    display: none !important;
+}
+
+/* 針對某些版本的主題，按鈕可能在 header 或特定的 section 內 */
+.button, .view {
+    display: none !important;
+}
+
+/* 讓主內容區域自動填滿，不再留出右側空間 */
+#main_content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-right: 0 !important;
+}
+/* 隱藏頁底維護者與 GitHub Pages 產生資訊 */
+footer, .site-footer {
+    display: none !important;
+}
+
+/* 調整主內容區域的上方間距，確保內容不會頂到最上方 */
+.main-content {
+    padding-top: 50px;
+}
+
     .card-container {
         display: flex;
         gap: 20px;
