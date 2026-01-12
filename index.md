@@ -8,6 +8,20 @@ title: HOME
 請點選下方區塊開始學習。
 
 <style>
+/* 1. 強制讓最外層背景變為淺灰色/白色，消除下方黑色區塊 */
+html, body {
+    background-color: #f4f4f4 !important; /* 與主題內容區域顏色接近的淺灰色 */
+    background-image: none !important;    /* 移除主題可能帶有的深色漸層背景圖 */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 2. 修正主內容區域，確保它至少撐滿整個螢幕高度 */
+#main_content, .main-content, section {
+    min-height: calc(100vh - 100px); /* 扣除可能的間距，讓內容區撐開 */
+    background-color: transparent !important; /* 讓它透出 body 的背景色 */
+}
+
 
 /* 隱藏 Architect 主題的藍色頁首 */
 header {
