@@ -3,10 +3,12 @@ layout: default
 title: HOME
 ---
 
-# 工程設計學期成果
+# 工程設計學習成果
+
+請點選下方區塊開始學習。
 
 <style>
-    
+
 /* 隱藏 Architect 主題的藍色頁首 */
 header {
     display: none !important;
@@ -37,14 +39,17 @@ footer, .site-footer {
 .main-content {
     padding-top: 50px;
 }
-
+    
     .card-container {
         display: flex;
+        flex-wrap: wrap;       /* 允許內容換行 */
         gap: 20px;
         margin-top: 30px;
     }
     .card {
-        flex: 1;
+        /* 計算寬度：(100% - 間隔) / 2 */
+        flex: 0 0 calc(50% - 10px); 
+        box-sizing: border-box; /* 確保 padding 不會撐大卡片 */
         padding: 20px;
         border: 1px solid #e0e0e0;
         border-radius: 12px;
@@ -76,6 +81,14 @@ footer, .site-footer {
         border-radius: 5px;
         font-weight: bold;
     }
+
+    /* 針對手機版做優化：螢幕小時改回一列一個 */
+    @media (max-width: 600px) {
+        .card {
+            flex: 0 0 100%;
+        }
+    }
+
 </style>
 
 <div class="card-container">
